@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("/chens-florist/public/assets/fonts/Raleway-Regular.ttf");
+    src: url("/chens-florist/public/assets/fonts/Raleway-Regular.ttf") format("ttf"),
+      url("/chens-florist/public/assets/fonts/Raleway-Regular.ttf") format("truetype");
+  }
+  
+@font-face {
+    font-family: "Abel";
+    src: url("/chens-florist/public/assets/fonts/Abel-Regular.ttf");
+    src: url("/chens-florist/public/assets/fonts/Abel-Regular.ttf") format("ttf"),
+      url("/chens-florist/public/assets/fonts/Abel-Regular.ttf") format("truetype");
+  }
+  
+@font-face {
+    font-family: "Nunito";
+    src: url("/chens-florist/public/assets/fonts/Nunito-Light.ttf");
+    src: url("/chens-florist/public/assets/fonts/Nunito-Light.ttf") format("ttf"),
+      url("/chens-florist/public/assets/fonts/Nunito-Light.ttf") format("truetype");
+}
+  
+@media print {
+  @page {
+    /* margin-left: 80px;
+      margin-right: -140px;
+      font-size: 10px; */
+  }
+
+  .noprint {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  #debug-icon-link {
+    display: none;
+  }
+}
+
+body {
+    background-color: #8b3b92;
+    font-family: "Nunito", "Raleway", "Abel", sans-serif;
+
+}
+.warna-chens {
+    color: #ffffff;
+}
+
+.menuTopbar {
+  color: #8b3b92;
+  font-weight: 900;
+}
+
+.warna-modal {
+  background-color: #8b3b92;
+}
+
+.hurufKecil {
+  font-size: 0.9em;
+}
+
+.rp {
+  background-color: rgb(203, 211, 219);
+}
+
+.ttdKwitansi {
+  float: right;
+  display: block;
+  margin-right: 20px;
+}
+
+.logoKwitansi {
+  margin-top: -10px;
+}
+
+#rotasi {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+
+  border: 1px solid #8b3b92;
+  width: 100%;
+  height: 50%;
+  margin-top: 200px;
+}
